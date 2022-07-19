@@ -205,6 +205,17 @@ media queries
     .player, .blog, .courses{
        flex-direction: column; 
     }
+    .menubar{
+        flex-direction: column;
+        width: 100%;
+        height: 188px;
+    }
+    .logo{
+        margin-right: 50px;
+    }
+    .menu-items{
+        margin-left: 38px;
+    }
    
 }
 @media screen and (min-width: 688px) and (max-width: 992px) {
@@ -216,5 +227,8 @@ media queries
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .menu-items{
+        margin-right: 45px;
     }
 }
